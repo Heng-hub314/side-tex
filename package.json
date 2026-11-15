@@ -1,9 +1,9 @@
 {
-  "name": "dsh-better-latex",
-  "version": "0.4.0",
+  "name": "dsh-side-tex",
+  "version": "0.4.1",
   "private": true,
   "type": "module",
-  "description": "Left source, right PDF LaTeX studio for DeepSeek Harness: bidirectional SyncTeX jump, per-hunk source review, live compile",
+  "description": "SideTeX: left source, right PDF LaTeX studio for DeepSeek Harness — bidirectional SyncTeX jump, per-hunk source review, multi-line annotations, live compile",
   "license": "MIT",
   "exports": {
     ".": "./lib/index.js",

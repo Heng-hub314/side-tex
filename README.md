@@ -1,6 +1,6 @@
-# dsh-better-latex
+# SideTeX
 
-DSH 内置的 LaTeX 工作台：**左边源码、右边 PDF**，两侧用 SyncTeX 双向定位，改动以**源码 diff** 逐处接受 / 放弃 / 评论，Host 侧内置实时编译。
+SideTeX（`dsh-side-tex`）：DSH 内置的 LaTeX 工作台：**左边源码、右边 PDF**，两侧用 SyncTeX 双向定位，改动以**源码 diff** 逐处接受 / 放弃 / 评论，Host 侧内置实时编译。
 
 面向 DSH（DeepSeek Harness）的 profile 插件，Host/Client 两半：
 
@@ -46,7 +46,7 @@ dsh plugin --profile desktop add link:C:\path\to\DSH-Better-Latex
 | `<项目>/.dsh-latex/build/` | 当前 PDF 与 `.synctex.gz` |
 | `<项目>/.dsh-latex/baseline/` | 已接受的源文件快照（manifest + 副本） |
 | `<项目>/.dsh-latex/notes.json` | PDF 批注（页面矩形、源码行区间 `line`/`endLine`、原文 `quote`、批注文字；旧版只有 `line` 的条目按单行读取） |
-| `%TEMP%/dsh-better-latex-compare/<hash>/` | 基线镜像编译产物（工具/脚本用；UI 不再读取） |
+| `%TEMP%/dsh-side-tex-compare/<hash>/` | 基线镜像编译产物（工具/脚本用；UI 不再读取） |
 
 是 git 仓库时自动把 `.dsh-latex/` 写进 `.git/info/exclude`，不改你的 `.gitignore`。
 

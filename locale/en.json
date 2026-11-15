@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "LaTeX studio",
+    "title": "SideTeX studio",
     "description": "Source left, PDF right, bidirectional jump, per-hunk source review, live compile."
   },
   "tab": {
-    "title": "LaTeX"
+    "title": "SideTeX"
   }
 }

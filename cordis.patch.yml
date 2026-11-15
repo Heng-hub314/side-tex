@@ -1,7 +1,7 @@
-# dsh-better-latex bundle patch
+# SideTeX (dsh-side-tex) bundle patch
 #
 # 以 bundle 形式声明本插件：安装后 profile 启动时把这一行插入 Loader，
 # 从而同时挂上 Host 半边（lib/index.js）与 Client 半边（lib/client.js）。
 - insert:
-    - id: better-latex
-      name: 'dsh-better-latex'
+    - id: side-tex
+      name: 'dsh-side-tex'
