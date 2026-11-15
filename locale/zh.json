@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "LaTeX 工作台",
+    "description": "左侧源码、右侧 PDF，双向定位，逐处审阅源码改动，实时编译。"
+  },
+  "tab": {
+    "title": "LaTeX"
+  }
+}

@@ -1,0 +1,12 @@
+# DSH 运行时数据（编译产物、基线、批注、记忆库）
+.dsh-latex/
+.dsh-meow/
+
+# Node（本项目零依赖，占位）
+node_modules/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
